@@ -240,4 +240,7 @@ align-items: flex-end;
 .botlinks:hover{
     text-decoration: underline;
 }
+.stars span,.stars img{
+cursor: pointer;
+}
 

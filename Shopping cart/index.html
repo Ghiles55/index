@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main" id="main">
+      <div class="cart" id="cart">
+        <div class="title" id="title">
+          <span id="title_span">My cart</span>
+          <img src="cancel.svg" id="delete_cart" />
+        </div>
+        <div class="item_cards">
+          <img
+            src="shopping-bag.svg"
+            class="item_picture"
+            id="item_picture_1"
+          />
+          <div class="item_content">
+            <div class="top_card">
+              <span class="item_name">Item Name</span>
+              <img src="cancel.svg" class="delete_card" />
+            </div>
+            <img src="heart (1).svg" class="heart">
+        
+
+            <div class="item_price">
+              <span class="label">Price:</span
+              ><span class="price_value">65</span><span>USD</span>
+              <div class="number_select">
+                <button class="Plus_btn">+</button>
+                <div class="item_number">
+                  <span class="item_select">1</span>
+                </div>
+                <button class="Minus_btn">-</button>
+              </div>
+            </div>
+            <div class="cardtotal">
+              <span>Total Price: </span><span class="card_price">65</span>
+            </div>
+          </div>
+        </div>
+        <div class="item_cards">
+          <img
+            src="shopping-bag.svg"
+            class="item_picture"
+            id="item_picture_1"
+          />
+          <div class="item_content">
+            <div class="top_card">
+              <span class="item_name">Item Name</span>
+              <img src="cancel.svg" class="delete_card" />
+            </div>
+            <img src="heart (1).svg" class="heart">
+
+            <div class="item_price">
+              <span class="label">Price:</span
+              ><span class="price_value">45</span><span>USD</span>
+              <div class="number_select">
+                <button class="Plus_btn">+</button>
+                <div class="item_number">
+                  <span class="item_select">1</span>
+                </div>
+                <button class="Minus_btn">-</button>
+              </div>
+            </div>
+            <div class="cardtotal">
+              <span>Total Price: </span><span class="card_price">45</span>
+            </div>
+          </div>
+        </div>
+        <div class="item_cards">
+          <img
+            src="shopping-bag.svg"
+            class="item_picture"
+            id="item_picture_1"
+          />
+          <div class="item_content">
+            <div class="top_card">
+              <span class="item_name">Item Name</span>
+              <img src="cancel.svg" class="delete_card" />
+            </div>
+            <img src="heart (1).svg" class="heart">
+
+            <div class="item_price">
+              <span class="label">Price:</span
+              ><span class="price_value">80</span><span>USD</span>
+              <div class="number_select">
+                <button class="Plus_btn">+</button>
+                <div class="item_number">
+                  <span class="item_select">1</span>
+                </div>
+                <button class="Minus_btn">-</button>
+              </div>
+            </div>
+            <div class="cardtotal">
+              <span>Total Price: </span><span class="card_price">80</span>
+            </div>
+          </div>
+        </div>
+        <div id="total_price" class="total_price">
+          <div class="total_price_span">
+            <span>Your Total is: </span>
+          </div>
+          <div id="total_count"></div>
+        </div>
+        <div class="cartbottom" id="cartbottom">
+          <span id="cart_total_price"></span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
